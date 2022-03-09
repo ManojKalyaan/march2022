@@ -1,0 +1,41 @@
+-which git
+-git version
+
+-git config --global user.name "manoj K"
+-git config --global user.email "manojkalyaan@gmail.com"
+-git config --global push.default "simple"
+
+- cd /e/devops
+- git clone https://github.com/ManojKalyaan/march2022.git workspace00
+- cd workspace00
+- touch 1.java
+- git status 
+- git add .
+- git commit -m "first commit"
+- git status
+- echo "first line" > 1.java
+- git status
+- git add .
+- git commit -m "second commit"
+- git log
+- git log -1
+- git log --oneline
+- git push
+
+-------- in new machine-----------
+
+- git clone https://github.com/ManojKalyaan/march2022.git workspace01
+- echo "first line" > 2.java
+- git add .
+- git commit -m "new file 2.java"
+- git push
+
+------- in old machine------
+
+- git pull
+- ls
+- mkdir test
+- touch /test/3.java
+- git add.
+- git commit -m "test"
+- git push
