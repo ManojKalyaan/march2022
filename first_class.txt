@@ -34,8 +34,10 @@
 
 - git pull
 - ls
+- pwd
 - mkdir test
 - touch /test/3.java
 - git add.
 - git commit -m "test"
 - git push
+
