@@ -1,0 +1,13 @@
+$ git stash
+$ git stash list
+$ git stash apply Stash@{1}
+$ git stash clear
+
+$ git reset --soft
+$ git reset --mixed
+$ git reset --hard
+
+$ git revert <commit ID>
+$ git checkout <commit ID>
+
+inorder to go back to the latest commit id checkout to other branch and check back to the branch so it will move to latest commit id. 
